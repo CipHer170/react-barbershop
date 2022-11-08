@@ -1,32 +1,26 @@
-import React from 'react';
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 // import components
-import Hero from './components/Hero';
-import Header from './components/Header';
-import About from './components/About';
-import GallerySection from './components/GallerySection';
-import Skills from './components/Skills';
-import Interview from './components/Interview';
-import Testimonial from './components/Testimonial';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Copyright from './components/Copyright';
+import Header from "./components/Header/Header";
+import BaseContainer from "./components/BaseContainer/BaseContainer";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
+import Masters from "./components/Masters/Masters";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Testimotials from "./components/Testimotials/Testimotials";
 
 const App = () => {
   return (
-    <div className='max-w-[1920px] mx-auto overflow-hidden bg-white'>
-      <Header />
-      <Hero />
-      <About />
-      <GallerySection />
-      <Skills />
-      <Testimonial />
-      <Interview />
-      <Contact />
-      <Footer />
-      <Copyright />
-      {/* <div className='h-[4000px]'></div> */}
-    </div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/header" element={<Header />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/masters" element={<Masters />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/testimotials" element={<Testimotials />} />
+      </Routes>
   );
 };
 
