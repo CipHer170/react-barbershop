@@ -15,7 +15,7 @@ function About() {
         <span>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
           explicabo! Cupiditate distinctio, sint quibusdam voluptatibus id illum
-          illo velit eius.
+          illo velit eius
         </span>
       </div>
       <div className="about__items">
