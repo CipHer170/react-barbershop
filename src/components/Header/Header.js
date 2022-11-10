@@ -14,7 +14,7 @@ function Header() {
       <nav className="header__list dflex">
         <ul className=" header__list dflex">
           <li>
-            <Link to="/header">Header</Link>
+            <Link to="/services">Services</Link>
           </li>
           <li>
             <Link to="/about">About</Link>

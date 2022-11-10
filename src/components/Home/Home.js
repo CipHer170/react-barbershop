@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import About from "../About/About";
 import BaseContainer from "../BaseContainer/BaseContainer";
 import Header from "../Header/Header";
 import Hero from "../Hero/Hero";
+import Services from "../Services/Services";
+import About from "../About/About";
 // import Masters from "../Masters/Masters";
 // import Portfolio from "../Portfolio/Portfolio";
 // import Testimotials from "../Testimotials/Testimotials";
@@ -16,6 +16,10 @@ function Home() {
       <BaseContainer>
         <Header />
         <Hero />
+      </BaseContainer>
+      <Services />
+      <BaseContainer>
+        <About />
       </BaseContainer>
 
       {/* <About />

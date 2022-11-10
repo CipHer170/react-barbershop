@@ -1,0 +1,36 @@
+.service {
+  background-color: #251d1a;
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 140px;
+    padding: 350px 0px 120px 0px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  &__description {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #b7aaa2;
+    padding: 10px 28px 0 28px;
+  }
+  h4 {
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  img {
+    padding-bottom: 25.25px;
+  }
+}
