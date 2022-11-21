@@ -1,0 +1,28 @@
+.testimotials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &__title {
+    text-align: center;
+    padding: 0px 300px 60px 300px;
+
+    h2 {
+      font-family: Fira Sans;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60px;
+      letter-spacing: 0px;
+      text-align: center;
+      padding-bottom: 24px;
+    }
+    span {
+      font-family: Fira Sans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}

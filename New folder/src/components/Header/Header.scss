@@ -1,0 +1,68 @@
+
+
+.header {
+  &__container {
+    color: #efe7e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 37.37px 0;
+  }
+  &__logo {
+    h2 {
+      padding-left: 18.19px;
+      font-family: Fira Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  &__list {
+    li {
+      padding-left: 40px;
+      font-family: Fira Sans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  &__info {
+    .location {
+      font-family: Fira Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: right;
+    }
+    .number {
+      font-family: Fira Sans;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: right;
+      &__mini {
+        font-family: Fira Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: right;
+      }
+    }
+
+    span {
+      padding-left: 42px;
+    }
+  }
+}
+.dflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
