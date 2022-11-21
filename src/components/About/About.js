@@ -13,15 +13,19 @@ function About() {
       <div className="about__title">
         <h2>About Us</h2>
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-          explicabo! Cupiditate distinctio, sint quibusdam voluptatibus id illum
-          illo velit eius
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deseruntte
+          distinctio, sint quibusdam voluptatibus id illum illo velit eius
         </span>
       </div>
       <div className="about__items">
         <img src={workingProcess1} alt="" className="big" />
-        dsdsd <img src={workingProcess5} alt="" className="small" />
-        <img src={workingProcess6} alt="" className="big" />
+        <img src={workingProcess2} alt="" className="small" />
+        <img src={workingProcess3} alt="" className="medium" />
+        <img src={workingProcess5} alt="" className="small1" />
+        <img src={workingProcess6} alt="" className="medium1" />
+        <img src={workingProcess4} alt="" className="big1" />
       </div>
       <div className="about__buttons">
         <a href="/masters">Our masters and their masterpieces</a>

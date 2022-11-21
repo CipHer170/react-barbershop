@@ -3,23 +3,72 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-top: 130px;
+
+  &__title {
+    position: relative;
+    padding: 120px 300px 60px 300px;
+    text-align: center;
+    h2 {
+      font-family: Fira Sans;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+    span {
+      font-family: Fira Sans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
 
   &__items {
     display: grid;
-    grid-template-columns: 150px auto 150px;
-    grid-template-rows: repeat(3, 100px);
-    grid-gap: 1em;
+    grid-gap: 20px;
     grid-template-areas:
-      "big big big"
-      "small small small"
-      "big big big";
+      "big big small1 medium1 "
+      "big big medium11 medium11"
+      "small11  big1 medium11 medium11";
+    padding-bottom: 60px;
   }
 
   .big {
     grid-area: big;
   }
+  .big1 {
+    grid-area: big1;
+  }
 
   .small {
     grid-area: small1;
+  }
+  .medium {
+    grid-area: medium1;
+  }
+  .small1 {
+    grid-area: small11;
+  }
+  .medium1 {
+    grid-area: medium11;
+  }
+
+  &__buttons {
+    padding-bottom: 138.5px;
+    a:first-child {
+      margin-right: 19px;
+    }
+    a {
+      padding: 18.5px 51px;
+      border: 1px solid white;
+    }
+    a:hover {
+      background-color: #ff6e40;
+      border-color: #ff6e40;
+    }
   }
 }

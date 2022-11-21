@@ -9,6 +9,7 @@ import About from "../About/About";
 // import Testimotials from "../Testimotials/Testimotials";
 // import Contacts from "../Contacts/Contacts";
 import "./Home.scss";
+import Testimotials from "../Testimotials/Testimotials";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Services />
       <BaseContainer>
         <About />
+        <Testimotials />
       </BaseContainer>
 
       {/* <About />
